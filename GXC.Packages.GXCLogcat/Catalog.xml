@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Projects>
+  <Project Name="GXCLogcat" Location=".">
+    <File Name="GXCLogcat.dll" Target="Packages" />
+  </Project>
+</Projects>

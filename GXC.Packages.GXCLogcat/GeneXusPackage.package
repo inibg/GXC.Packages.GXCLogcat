@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Package xmlns='http://schemas.genexus.com/addin/v1.0'
+			id='62dec72f-04e5-4b91-8a09-6799de674969'
+			name='GXCLogcat'>
+
+  <Resources>
+    <Resource type='strings' name='GXC.Packages.GXLogcat'/>
+    <Resource type='images' name='GXC.Packages.GXLogcat.Recursos'/>
+  </Resources>
+
+  <Commands>
+    <CommandDefinition id='VerificarLocation' imageType='ico' image='GXPointsNew'></CommandDefinition>
+    <CommandDefinition id='ListarObjetos' imageType='ico' image='GXPointsNew'></CommandDefinition>
+    <CommandDefinition id='ListarObjetosJS' imageType='ico' image='GXPointsNew'></CommandDefinition>
+    <CommandDefinition id='ExportarObjetos' imageType='ico' image='GXPointsNew'></CommandDefinition>
+  </Commands>
+
+  <Groups>
+    <Group id="GXCLogcat">
+      <Command refid="VerificarLocation"/>
+      <Command refid="ListarObjetos"/>
+      <Command refid="ListarObjetosJS"/>
+      <Command refid="ExportarObjetos"/>
+    </Group>
+  </Groups>
+
+  <Menus>
+    <Menu type="menubar">
+      <Popup name="GXCLogcat" insertBefore="Help" >
+        <Group refid="GXCLogcat" />
+      </Popup>
+    </Menu>
+  </Menus>
+</Package>
